@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Table</title>
+</head>
+<body>
+    <input class="search" placeholder="Search">
+
+    <div id="users">
+        <input class="search" placeholder="Search" />
+        <table>
+            <thead>
+                <tr>
+                    <th class="sort" data-sort="name">Name</th>
+                    <th class="sort" data-sort="specialties">Specialties</th>
+                    <th class="sort" data-sort="flags">Flags</th>
+                    <th class="sort" data-sort="address">Address</th>
+                    <!-- Add other headers as needed -->
+                </tr>
+            </thead>
+            <tbody class="list"></tbody>
+        </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <script>
+        fetch('simplified-data.json')
+        .then(response => response.json())
+        .then(data => {
+            const tbody = document.querySelector(".list");
+
+            data.sites.forEach(site => {
+                const row = document.createElement("tr");
+
+                const nameCell = document.createElement("td");
+                nameCell.className = "name";
+                nameCell.textContent = data.name;
+
+                const specialtiesCell = document.createElement("td");
+                specialtiesCell.className = "specialties";
+                specialtiesCell.textContent = site.specialties.join(", ");
+
+                const flagsCell = document.createElement("td");
+                flagsCell.className = "flags";
+                flagsCell.textContent = site.flags.join(", ");
+
+                const addressCell = document.createElement("td");
+                addressCell.className = "address";
+                addressCell.textContent = site.address;
+
+                row.appendChild(nameCell);
+                row.appendChild(specialtiesCell);
+                row.appendChild(flagsCell);
+                row.appendChild(addressCell);
+
+                tbody.appendChild(row);
+            });
+
+            const options = {
+                valueNames: ['name', 'specialties', 'flags', 'address']
+            };
+
+            const userList = new List('users', options);
+        })
+        .catch(error => {
+            console.error("There was an error loading the JSON data:", error);
+        });
+    </script>
+</body>
+</html>
