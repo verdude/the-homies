@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filterable Table</title>
+  <title>The Homies</title>
 </head>
 <body>
   <div id="homies">
@@ -74,11 +74,36 @@
       };
 
       const userList = new List('homies', options);
+
+      function markRow(action, e) {
+        if (e.target.tagName === 'TD') {
+          const clickedHomie = e.target.parentNode;
+          if (action === "single") {
+            row.classList.toggle("done");
+          } else if (action === "double") {
+            row.classList.add("saved");
+          }
+        }
+      }
+
+      const list = document.querySelector('.list');
+      list.addEventListener('click', markRow.bind(null, "single"));
+      list.addEventListener('dblclick', markRow.bind(null, "double"));
     })
     .catch(error => {
       console.error("There was an error loading the JSON data:", error);
     });
   </script>
 </body>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+
+<style>
+.done {
+    background-color: #D3D3D3;
+}
+.saved {
+    background-color: #A8D5BA;
+}
+</style>
 </html>
