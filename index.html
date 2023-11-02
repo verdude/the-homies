@@ -31,7 +31,7 @@
         .then(data => {
             const tbody = document.querySelector(".list");
 
-            data.sites.forEach(site => {
+            data.forEach(homie => {
                 const row = document.createElement("tr");
 
                 const nameCell = document.createElement("td");
@@ -40,15 +40,15 @@
 
                 const specialtiesCell = document.createElement("td");
                 specialtiesCell.className = "specialties";
-                specialtiesCell.textContent = site.specialties.join(", ");
+                specialtiesCell.textContent = homie.specialties.join(", ");
 
                 const flagsCell = document.createElement("td");
                 flagsCell.className = "flags";
-                flagsCell.textContent = site.flags.join(", ");
+                flagsCell.textContent = homie.flags.join(", ");
 
                 const addressCell = document.createElement("td");
                 addressCell.className = "address";
-                addressCell.textContent = site.address;
+                addressCell.textContent = homie.address;
 
                 row.appendChild(nameCell);
                 row.appendChild(specialtiesCell);
