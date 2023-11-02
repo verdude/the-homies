@@ -52,7 +52,7 @@
         const cells = [
           createCol("name", homie.name),
           createCol("specialties", homie.specialties.join(", ")),
-          createCol("flags", homie.provider_flags.join(", ")),
+          createCol("flags", homie.provider_flags?.join(", ")),
           createCol("address", homie.address),
           createCol("email", homie.email),
           createCol("out_of_network", homie.out_of_network),
