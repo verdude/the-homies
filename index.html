@@ -79,9 +79,9 @@
         if (e.target.tagName === 'TD') {
           const clickedHomie = e.target.parentNode;
           if (action === "single") {
-            row.classList.toggle("done");
+            clickedHomie.classList.toggle("done");
           } else if (action === "double") {
-            row.classList.add("saved");
+            clickedHomie.classList.add("saved");
           }
         }
       }
