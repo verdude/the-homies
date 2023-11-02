@@ -6,14 +6,16 @@
   <title>Filterable Table</title>
 </head>
 <body>
-  <input class="search" placeholder="Search">
-
-  <div id="users">
+  <div id="homies">
     <input class="search" placeholder="Search" />
     <table>
       <thead>
         <tr>
-          <th class="sort" data-sort="name">Name</th>
+          <th class="sort" data-sort="full">Full Name</th>
+          <th class="sort" data-sort="first">First Name</th>
+          <th class="sort" data-sort="last">Last Name</th>
+          <th class="sort" data-sort="middle">Middle Name</th>
+          <th class="sort" data-sort="designation">Designation</th>
           <th class="sort" data-sort="specialties">Specialties</th>
           <th class="sort" data-sort="flags">Provider Flags</th>
 
@@ -50,7 +52,11 @@
       data.forEach(homie => {
         const row = document.createElement("tr");
         const cells = [
-          createCol("name", homie.name),
+          createCol("full", homie.full),
+          createCol("first", homie.fname),
+          createCol("middle", homie.mname),
+          createCol("last", homie.lname),
+          createCol("designation", homie.designation),
           createCol("specialties", homie.specialties?.join(", ")),
           createCol("flags", homie.provider_flags?.join(", ")),
           createCol("address", homie.address),
@@ -59,7 +65,7 @@
           createCol("languages", homie.languages?.join(", ")),
           createCol("gender", homie.gender),
           createCol("education", homie.education),
-          createCol("primaryphone", homie.primaryphone),
+          createCol("primaryphone", homie.primary_phone),
           createCol("type", homie.type),
         ];
         cells.forEach(cell => row.appendChild(cell));
@@ -68,7 +74,11 @@
 
       const options = {
         valueNames: [
-          "name",
+          "full",
+          "fname",
+          "mname",
+          "lname",
+          "designation",
           "specialties",
           "flags",
           "address",

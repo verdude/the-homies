@@ -82,7 +82,11 @@
     "languages": [
       "English"
     ],
-    "name": "Tyler McDaniel"
+    "fname": "Tyler",
+    "mname": "C.",
+    "lname": "McDaniel",
+    "full": "Tyler C. McDaniel, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8016573330",
@@ -153,7 +157,11 @@
     "languages": [
       "English"
     ],
-    "name": "Natalie Herndon"
+    "fname": "Natalie",
+    "mname": "Cox",
+    "lname": "Herndon",
+    "full": "Natalie Cox Herndon, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015651162",
@@ -204,7 +212,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Nathanael Ridge"
+    "fname": "Nathanael",
+    "mname": "W.",
+    "lname": "Ridge",
+    "full": "Nathanael W. Ridge, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "4356710367",
@@ -294,7 +306,11 @@
       "German",
       "English"
     ],
-    "name": "Corinna Porter"
+    "fname": "Corinna",
+    "mname": "A.",
+    "lname": "Porter",
+    "full": "Corinna A. Porter, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012662485",
@@ -404,7 +420,11 @@
     "languages": [
       "English"
     ],
-    "name": "Mark Lehman"
+    "fname": "Mark",
+    "mname": "",
+    "lname": "Lehman",
+    "full": "Mark  Lehman, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012662485",
@@ -538,7 +558,11 @@
     "languages": [
       "English"
     ],
-    "name": "Justin Potts"
+    "fname": "Justin",
+    "mname": "R.",
+    "lname": "Potts",
+    "full": "Justin R. Potts, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8012159334",
@@ -587,7 +611,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kathleen Fry"
+    "fname": "Kathleen",
+    "mname": "Meaghan",
+    "lname": "Fry",
+    "full": "Kathleen Meaghan Fry, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "3072009126",
@@ -676,7 +704,11 @@
     "languages": [
       "English"
     ],
-    "name": "Brandon Henscheid"
+    "fname": "Brandon",
+    "mname": "J.",
+    "lname": "Henscheid",
+    "full": "Brandon J. Henscheid, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8012662485",
@@ -818,7 +850,11 @@
     "languages": [
       "English"
     ],
-    "name": "Karen Malm"
+    "fname": "Karen",
+    "mname": "W.",
+    "lname": "Malm",
+    "full": "Karen W. Malm, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012662485",
@@ -952,7 +988,11 @@
     "languages": [
       "English"
     ],
-    "name": "Justin Potts"
+    "fname": "Justin",
+    "mname": "R.",
+    "lname": "Potts",
+    "full": "Justin R. Potts, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8019904310",
@@ -1028,7 +1068,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kalli Saibara-Cook"
+    "fname": "Kalli",
+    "mname": "",
+    "lname": "Saibara-Cook",
+    "full": "Kalli  Saibara-Cook, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8019904308",
@@ -1082,7 +1126,11 @@
       "German",
       "English"
     ],
-    "name": "Jeffrey Sheffield"
+    "fname": "Jeffrey",
+    "mname": "Clark",
+    "lname": "Sheffield",
+    "full": "Jeffrey Clark Sheffield, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "3859004020",
@@ -1180,7 +1228,11 @@
     "languages": [
       "English"
     ],
-    "name": "Vivian Vonk"
+    "fname": "Vivian",
+    "mname": "Lee",
+    "lname": "Vonk",
+    "full": "Vivian Lee Vonk, MS",
+    "designation": "MS"
   },
   {
     "primary_phone": "8019017247",
@@ -1219,7 +1271,11 @@
     "languages": [
       "English"
     ],
-    "name": "Hannah Baczynski"
+    "fname": "Hannah",
+    "mname": "Marie",
+    "lname": "Baczynski",
+    "full": "Hannah Marie Baczynski, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8019017247",
@@ -1266,7 +1322,11 @@
     "languages": [
       "English"
     ],
-    "name": "Thad Lloyd"
+    "fname": "Thad",
+    "mname": "Quentin",
+    "lname": "Lloyd",
+    "full": "Thad Quentin Lloyd, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8019017247",
@@ -1313,7 +1373,11 @@
     "languages": [
       "English"
     ],
-    "name": "Amanda Rapacz"
+    "fname": "Amanda",
+    "mname": "",
+    "lname": "Rapacz",
+    "full": "Amanda  Rapacz, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013734760",
@@ -1386,7 +1450,11 @@
     "languages": [
       "English"
     ],
-    "name": "Scott Curry"
+    "fname": "Scott",
+    "mname": "McLeod",
+    "lname": "Curry",
+    "full": "Scott McLeod Curry, MS",
+    "designation": "MS"
   },
   {
     "primary_phone": "8013023801",
@@ -1443,7 +1511,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kristina Talbert"
+    "fname": "Kristina",
+    "mname": "Lynne",
+    "lname": "Talbert",
+    "full": "Kristina Lynne Talbert, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8019499554",
@@ -1499,7 +1571,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Robert Johnson"
+    "fname": "Robert",
+    "mname": "Bernard",
+    "lname": "Johnson",
+    "full": "Robert Bernard Johnson, EDD",
+    "designation": "EDD"
   },
   {
     "primary_phone": "3852336046",
@@ -1590,7 +1666,11 @@
       "Hebrew",
       "English"
     ],
-    "name": "Stevan Hobfoll"
+    "fname": "Stevan",
+    "mname": "E",
+    "lname": "Hobfoll",
+    "full": "Stevan E Hobfoll, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017924129",
@@ -1647,7 +1727,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kathryn Kair"
+    "fname": "Kathryn",
+    "mname": "M.",
+    "lname": "Kair",
+    "full": "Kathryn M. Kair, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8016522720",
@@ -1702,7 +1786,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kayleen Fuller"
+    "fname": "Kayleen",
+    "mname": "Marian",
+    "lname": "Fuller",
+    "full": "Kayleen Marian Fuller, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "3859004020",
@@ -1876,7 +1964,11 @@
     "languages": [
       "English"
     ],
-    "name": "Frances Thompson"
+    "fname": "Frances",
+    "mname": "L.",
+    "lname": "Thompson",
+    "full": "Frances L. Thompson, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8017854622",
@@ -1959,7 +2051,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Mindy Pearson"
+    "fname": "Mindy",
+    "mname": "Judd",
+    "lname": "Pearson",
+    "full": "Mindy Judd Pearson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018725516",
@@ -2033,7 +2129,11 @@
     "languages": [
       "English"
     ],
-    "name": "Leon Butler"
+    "fname": "Leon",
+    "mname": "H.",
+    "lname": "Butler",
+    "full": "Leon H. Butler, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8015136821",
@@ -2092,7 +2192,11 @@
     "languages": [
       "English"
     ],
-    "name": "Clay Frandsen"
+    "fname": "Clay",
+    "mname": "",
+    "lname": "Frandsen",
+    "full": "Clay  Frandsen, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013829338",
@@ -2183,7 +2287,11 @@
     "languages": [
       "English"
     ],
-    "name": "Davis Kane"
+    "fname": "Davis",
+    "mname": "K.",
+    "lname": "Kane",
+    "full": "Davis K. Kane, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013829338",
@@ -2262,7 +2370,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jason Lefrandt"
+    "fname": "Jason",
+    "mname": "B.",
+    "lname": "Lefrandt",
+    "full": "Jason B. Lefrandt, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015136821",
@@ -2327,7 +2439,11 @@
     "languages": [
       "English"
     ],
-    "name": "Luke Marvin"
+    "fname": "Luke",
+    "mname": "",
+    "lname": "Marvin",
+    "full": "Luke  Marvin, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015136821",
@@ -2380,7 +2496,11 @@
     "languages": [
       "English"
     ],
-    "name": "Steven Smith"
+    "fname": "Steven",
+    "mname": "",
+    "lname": "Smith",
+    "full": "Steven  Smith, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018523805",
@@ -2436,7 +2556,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Michael Wilkins"
+    "fname": "Michael",
+    "mname": "Alan",
+    "lname": "Wilkins",
+    "full": "Michael Alan Wilkins, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018161801",
@@ -2483,7 +2607,11 @@
     "languages": [
       "English"
     ],
-    "name": "Halley Brown"
+    "fname": "Halley",
+    "mname": "J.",
+    "lname": "Brown",
+    "full": "Halley J. Brown, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018161801",
@@ -2526,7 +2654,11 @@
     "languages": [
       "English"
     ],
-    "name": "Alex Ertl"
+    "fname": "Alex",
+    "mname": "",
+    "lname": "Ertl",
+    "full": "Alex  Ertl, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8018161809",
@@ -2573,7 +2705,11 @@
     "languages": [
       "English"
     ],
-    "name": "Deborah Christensen"
+    "fname": "Deborah",
+    "mname": "A.",
+    "lname": "Christensen",
+    "full": "Deborah A. Christensen, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "3852690333",
@@ -2628,7 +2764,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kirk Thorn"
+    "fname": "Kirk",
+    "mname": "B.",
+    "lname": "Thorn",
+    "full": "Kirk B. Thorn, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8016193569",
@@ -2668,7 +2808,11 @@
       "Mandarin",
       "English"
     ],
-    "name": "Scott Fidler"
+    "fname": "Scott",
+    "mname": "W.",
+    "lname": "Fidler",
+    "full": "Scott W. Fidler, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "3859004020",
@@ -2842,7 +2986,11 @@
     "languages": [
       "English"
     ],
-    "name": "Frances Thompson"
+    "fname": "Frances",
+    "mname": "L.",
+    "lname": "Thompson",
+    "full": "Frances L. Thompson, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "3859004020",
@@ -2940,7 +3088,11 @@
     "languages": [
       "English"
     ],
-    "name": "Vivian Vonk"
+    "fname": "Vivian",
+    "mname": "Lee",
+    "lname": "Vonk",
+    "full": "Vivian Lee Vonk, MS",
+    "designation": "MS"
   },
   {
     "primary_phone": "8018198719",
@@ -3073,7 +3225,11 @@
       "American Sign Language",
       "English"
     ],
-    "name": "Beckie Grgich"
+    "fname": "Beckie",
+    "mname": "M.",
+    "lname": "Grgich",
+    "full": "Beckie M. Grgich, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8015233001",
@@ -3112,7 +3268,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kelsey Clews"
+    "fname": "Kelsey",
+    "mname": "",
+    "lname": "Clews",
+    "full": "Kelsey  Clews, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8015233001",
@@ -3174,7 +3334,11 @@
     "languages": [
       "English"
     ],
-    "name": "Loran Hayes"
+    "fname": "Loran",
+    "mname": "P.",
+    "lname": "Hayes",
+    "full": "Loran P. Hayes, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "4356544037",
@@ -3231,7 +3395,11 @@
     "languages": [
       "English"
     ],
-    "name": "Shawn Miller"
+    "fname": "Shawn",
+    "mname": "Michael",
+    "lname": "Miller",
+    "full": "Shawn Michael Miller, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "4356544037",
@@ -3310,7 +3478,11 @@
     "languages": [
       "English"
     ],
-    "name": "Christian Monson"
+    "fname": "Christian",
+    "mname": "H.",
+    "lname": "Monson",
+    "full": "Christian H. Monson, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8018029464",
@@ -3401,7 +3573,11 @@
     "languages": [
       "English"
     ],
-    "name": "Anna Nosek"
+    "fname": "Anna",
+    "mname": "",
+    "lname": "Nosek",
+    "full": "Anna  Nosek, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8014228031",
@@ -3465,7 +3641,11 @@
     "languages": [
       "English"
     ],
-    "name": "Aaron Jackson"
+    "fname": "Aaron",
+    "mname": "P.",
+    "lname": "Jackson",
+    "full": "Aaron P. Jackson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8014726294",
@@ -3516,7 +3696,11 @@
     "languages": [
       "English"
     ],
-    "name": "Ellie Young"
+    "fname": "Ellie",
+    "mname": "M.",
+    "lname": "Young",
+    "full": "Ellie M. Young, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017563664",
@@ -3574,7 +3758,11 @@
       "American Sign Language",
       "English"
     ],
-    "name": "Victoria Anderson"
+    "fname": "Victoria",
+    "mname": "E.",
+    "lname": "Anderson",
+    "full": "Victoria E. Anderson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017563664",
@@ -3641,7 +3829,11 @@
     "languages": [
       "English"
     ],
-    "name": "Theron Liddell"
+    "fname": "Theron",
+    "mname": "Michael",
+    "lname": "Liddell",
+    "full": "Theron Michael Liddell, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013829338",
@@ -3732,7 +3924,11 @@
     "languages": [
       "English"
     ],
-    "name": "Davis Kane"
+    "fname": "Davis",
+    "mname": "K.",
+    "lname": "Kane",
+    "full": "Davis K. Kane, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "3852870555",
@@ -3784,7 +3980,11 @@
       "French",
       "English"
     ],
-    "name": "Bradley Smith"
+    "fname": "Bradley",
+    "mname": "Geoff",
+    "lname": "Smith",
+    "full": "Bradley Geoff Smith, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8012242313",
@@ -3867,7 +4067,11 @@
     "languages": [
       "English"
     ],
-    "name": "Ryan Balagna"
+    "fname": "Ryan",
+    "mname": "M.",
+    "lname": "Balagna",
+    "full": "Ryan M. Balagna, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012242313",
@@ -3906,7 +4110,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jason McBride"
+    "fname": "Jason",
+    "mname": "Andrew",
+    "lname": "McBride",
+    "full": "Jason Andrew McBride, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8019354171X3",
@@ -4051,7 +4259,11 @@
     "languages": [
       "English"
     ],
-    "name": "Natalie Roth"
+    "fname": "Natalie",
+    "mname": "J.",
+    "lname": "Roth",
+    "full": "Natalie J. Roth, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013734760",
@@ -4135,7 +4347,11 @@
     "languages": [
       "English"
     ],
-    "name": "Shannon Cayer"
+    "fname": "Shannon",
+    "mname": "",
+    "lname": "Cayer",
+    "full": "Shannon  Cayer, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8019803676",
@@ -4174,7 +4390,11 @@
     "languages": [
       "English"
     ],
-    "name": "Emily Putnam"
+    "fname": "Emily",
+    "mname": "",
+    "lname": "Putnam",
+    "full": "Emily  Putnam, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013807000",
@@ -4228,7 +4448,11 @@
       "Chinese",
       "English"
     ],
-    "name": "Rachel Lyon"
+    "fname": "Rachel",
+    "mname": "E.",
+    "lname": "Lyon",
+    "full": "Rachel E. Lyon, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8016698300",
@@ -4281,7 +4505,11 @@
     "languages": [
       "English"
     ],
-    "name": "Suzanne Plowman"
+    "fname": "Suzanne",
+    "mname": "F.",
+    "lname": "Plowman",
+    "full": "Suzanne F. Plowman, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013741999",
@@ -4399,7 +4627,11 @@
       "Efik",
       "English"
     ],
-    "name": "John Livingstone"
+    "fname": "John",
+    "mname": "D.",
+    "lname": "Livingstone",
+    "full": "John D. Livingstone, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013741999",
@@ -4542,7 +4774,11 @@
     "languages": [
       "English"
     ],
-    "name": "Julia Simpson"
+    "fname": "Julia",
+    "mname": "B.",
+    "lname": "Simpson",
+    "full": "Julia B. Simpson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012257805",
@@ -4644,7 +4880,11 @@
     "languages": [
       "English"
     ],
-    "name": "James Cloyd"
+    "fname": "James",
+    "mname": "Henry",
+    "lname": "Cloyd",
+    "full": "James Henry Cloyd, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013741999",
@@ -4787,7 +5027,11 @@
     "languages": [
       "English"
     ],
-    "name": "Julia Simpson"
+    "fname": "Julia",
+    "mname": "B.",
+    "lname": "Simpson",
+    "full": "Julia B. Simpson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013741999",
@@ -4905,7 +5149,11 @@
       "Efik",
       "English"
     ],
-    "name": "John Livingstone"
+    "fname": "John",
+    "mname": "D.",
+    "lname": "Livingstone",
+    "full": "John D. Livingstone, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013829338",
@@ -4984,7 +5232,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jason Lefrandt"
+    "fname": "Jason",
+    "mname": "B.",
+    "lname": "Lefrandt",
+    "full": "Jason B. Lefrandt, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015872255",
@@ -5047,7 +5299,11 @@
     "languages": [
       "English"
     ],
-    "name": "Emily Moulton"
+    "fname": "Emily",
+    "mname": "",
+    "lname": "Moulton",
+    "full": "Emily  Moulton, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015872255",
@@ -5110,7 +5366,11 @@
     "languages": [
       "English"
     ],
-    "name": "Kelly Stout"
+    "fname": "Kelly",
+    "mname": "L.",
+    "lname": "Stout",
+    "full": "Kelly L. Stout, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015872255",
@@ -5175,7 +5435,11 @@
     "languages": [
       "English"
     ],
-    "name": "Ashley Stuart"
+    "fname": "Ashley",
+    "mname": "L.",
+    "lname": "Stuart",
+    "full": "Ashley L. Stuart, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8015872255",
@@ -5240,7 +5504,11 @@
     "languages": [
       "English"
     ],
-    "name": "Michele Villalobos"
+    "fname": "Michele",
+    "mname": "Elizabeth",
+    "lname": "Villalobos",
+    "full": "Michele Elizabeth Villalobos, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013741999",
@@ -5358,7 +5626,11 @@
       "Efik",
       "English"
     ],
-    "name": "John Livingstone"
+    "fname": "John",
+    "mname": "D.",
+    "lname": "Livingstone",
+    "full": "John D. Livingstone, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013741999",
@@ -5501,7 +5773,11 @@
     "languages": [
       "English"
     ],
-    "name": "Julia Simpson"
+    "fname": "Julia",
+    "mname": "B.",
+    "lname": "Simpson",
+    "full": "Julia B. Simpson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017344945",
@@ -5556,7 +5832,11 @@
     "languages": [
       "English"
     ],
-    "name": "Tyler Money"
+    "fname": "Tyler",
+    "mname": "A.",
+    "lname": "Money",
+    "full": "Tyler A. Money, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017344945",
@@ -5601,7 +5881,11 @@
     "education": null,
     "gender": null,
     "languages": null,
-    "name": "null null"
+    "fname": null,
+    "mname": null,
+    "lname": null,
+    "full": "Utah Psychological Services",
+    "designation": null
   },
   {
     "primary_phone": "8014776940",
@@ -5651,7 +5935,11 @@
       "German",
       "English"
     ],
-    "name": "Brian Hansen"
+    "fname": "Brian",
+    "mname": "",
+    "lname": "Hansen",
+    "full": "Brian  Hansen, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017854622",
@@ -5734,7 +6022,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Mindy Pearson"
+    "fname": "Mindy",
+    "mname": "Judd",
+    "lname": "Pearson",
+    "full": "Mindy Judd Pearson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018041028",
@@ -5785,7 +6077,11 @@
     "languages": [
       "English"
     ],
-    "name": "Geraldine Alldredge"
+    "fname": "Geraldine",
+    "mname": "",
+    "lname": "Alldredge",
+    "full": "Geraldine  Alldredge, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018041028",
@@ -5838,7 +6134,11 @@
     "languages": [
       "English"
     ],
-    "name": "Rick Biesinger"
+    "fname": "Rick",
+    "mname": "T.",
+    "lname": "Biesinger",
+    "full": "Rick T. Biesinger, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8018041028",
@@ -5877,7 +6177,11 @@
     "languages": [
       "English"
     ],
-    "name": "Bryce Roby"
+    "fname": "Bryce",
+    "mname": "Young",
+    "lname": "Roby",
+    "full": "Bryce Young Roby, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013741999",
@@ -5995,7 +6299,11 @@
       "Efik",
       "English"
     ],
-    "name": "John Livingstone"
+    "fname": "John",
+    "mname": "D.",
+    "lname": "Livingstone",
+    "full": "John D. Livingstone, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013741999",
@@ -6138,7 +6446,11 @@
     "languages": [
       "English"
     ],
-    "name": "Julia Simpson"
+    "fname": "Julia",
+    "mname": "B.",
+    "lname": "Simpson",
+    "full": "Julia B. Simpson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8889494864",
@@ -6196,7 +6508,11 @@
     "languages": [
       "English"
     ],
-    "name": "John Malouf"
+    "fname": "John",
+    "mname": "Lawrence",
+    "lname": "Malouf",
+    "full": "John Lawrence Malouf, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017561626",
@@ -6255,7 +6571,11 @@
     "languages": [
       "English"
     ],
-    "name": "Tessa Salisbury"
+    "fname": "Tessa",
+    "mname": "Nicole",
+    "lname": "Salisbury",
+    "full": "Tessa Nicole Salisbury, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017561626",
@@ -6308,7 +6628,11 @@
     "languages": [
       "English"
     ],
-    "name": "Patricia Taylor"
+    "fname": "Patricia",
+    "mname": "E.",
+    "lname": "Taylor",
+    "full": "Patricia E. Taylor, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012219930",
@@ -6395,7 +6719,11 @@
     "languages": [
       "English"
     ],
-    "name": "Leslie Lilino"
+    "fname": "Leslie",
+    "mname": "L.",
+    "lname": "Lilino",
+    "full": "Leslie L. Lilino, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8018029464",
@@ -6486,7 +6814,11 @@
     "languages": [
       "English"
     ],
-    "name": "Lori Kotter"
+    "fname": "Lori",
+    "mname": "K.",
+    "lname": "Kotter",
+    "full": "Lori K. Kotter, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8019354171",
@@ -6693,7 +7025,11 @@
     "languages": [
       "English"
     ],
-    "name": "Cyrus Veil"
+    "fname": "Cyrus",
+    "mname": "M.",
+    "lname": "Veil",
+    "full": "Cyrus M. Veil, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8012220603",
@@ -6778,7 +7114,11 @@
       "American Sign Language",
       "English"
     ],
-    "name": "Gale Stringham"
+    "fname": "Gale",
+    "mname": "E.",
+    "lname": "Stringham",
+    "full": "Gale E. Stringham, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017879855",
@@ -6829,7 +7169,11 @@
     "languages": [
       "English"
     ],
-    "name": "Lynnette Averill"
+    "fname": "Lynnette",
+    "mname": "Astrid",
+    "lname": "Averill",
+    "full": "Lynnette Astrid Averill, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8017879855",
@@ -6886,7 +7230,11 @@
     "languages": [
       "English"
     ],
-    "name": "Natalie Noel"
+    "fname": "Natalie",
+    "mname": "",
+    "lname": "Noel",
+    "full": "Natalie  Noel, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012210223",
@@ -6939,7 +7287,11 @@
     "languages": [
       "English"
     ],
-    "name": "Alicia Henderson"
+    "fname": "Alicia",
+    "mname": "A.",
+    "lname": "Henderson",
+    "full": "Alicia A. Henderson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012210223",
@@ -6984,7 +7336,11 @@
     "languages": [
       "English"
     ],
-    "name": "Randall Hyde"
+    "fname": "Randall",
+    "mname": "F.",
+    "lname": "Hyde",
+    "full": "Randall F. Hyde, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012210223",
@@ -7024,7 +7380,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Nathan Sewell"
+    "fname": "Nathan",
+    "mname": "R.",
+    "lname": "Sewell",
+    "full": "Nathan R. Sewell, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012210223",
@@ -7080,7 +7440,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Rodrigo Veas-Wall"
+    "fname": "Rodrigo",
+    "mname": "",
+    "lname": "Veas-Wall",
+    "full": "Rodrigo  Veas-Wall, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012219930",
@@ -7123,7 +7487,11 @@
     "languages": [
       "English"
     ],
-    "name": "Stephanie Creekpaum"
+    "fname": "Stephanie",
+    "mname": "",
+    "lname": "Creekpaum",
+    "full": "Stephanie  Creekpaum, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013734760",
@@ -7207,7 +7575,11 @@
     "languages": [
       "English"
     ],
-    "name": "Shannon Cayer"
+    "fname": "Shannon",
+    "mname": "",
+    "lname": "Cayer",
+    "full": "Shannon  Cayer, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013734760",
@@ -7280,7 +7652,11 @@
     "languages": [
       "English"
     ],
-    "name": "Scott Curry"
+    "fname": "Scott",
+    "mname": "McLeod",
+    "lname": "Curry",
+    "full": "Scott McLeod Curry, MS",
+    "designation": "MS"
   },
   {
     "primary_phone": "8013734760",
@@ -7374,7 +7750,11 @@
     "languages": [
       "English"
     ],
-    "name": "Eliza Gedge"
+    "fname": "Eliza",
+    "mname": "R.",
+    "lname": "Gedge",
+    "full": "Eliza R. Gedge, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8013734760",
@@ -7437,7 +7817,11 @@
       "American Sign Language",
       "English"
     ],
-    "name": "Randal Pennington"
+    "fname": "Randal",
+    "mname": "S.",
+    "lname": "Pennington",
+    "full": "Randal S. Pennington, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013734760",
@@ -7535,7 +7919,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jennifer Rogers"
+    "fname": "Jennifer",
+    "mname": "Denise",
+    "lname": "Rogers",
+    "full": "Jennifer Denise Rogers, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013734760",
@@ -7633,7 +8021,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jennifer Rogers"
+    "fname": "Jennifer",
+    "mname": "Denise",
+    "lname": "Rogers",
+    "full": "Jennifer Denise Rogers, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013734760",
@@ -7700,7 +8092,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Stuart Spendlove"
+    "fname": "Stuart",
+    "mname": "Jon",
+    "lname": "Spendlove",
+    "full": "Stuart Jon Spendlove, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012357246",
@@ -7743,7 +8139,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jeffrey Bentley"
+    "fname": "Jeffrey",
+    "mname": "James",
+    "lname": "Bentley",
+    "full": "Jeffrey James Bentley, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8014228031",
@@ -7807,7 +8207,11 @@
     "languages": [
       "English"
     ],
-    "name": "Aaron Jackson"
+    "fname": "Aaron",
+    "mname": "P.",
+    "lname": "Jackson",
+    "full": "Aaron P. Jackson, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012219930",
@@ -7894,7 +8298,11 @@
     "languages": [
       "English"
     ],
-    "name": "Leslie Lilino"
+    "fname": "Leslie",
+    "mname": "L.",
+    "lname": "Lilino",
+    "full": "Leslie L. Lilino, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8015872255",
@@ -7974,7 +8382,11 @@
     "languages": [
       "English"
     ],
-    "name": "Sean Cunningham"
+    "fname": "Sean",
+    "mname": "D.",
+    "lname": "Cunningham",
+    "full": "Sean D. Cunningham, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013586702",
@@ -8034,7 +8446,11 @@
       "Spanish",
       "English"
     ],
-    "name": "Carlos Roby"
+    "fname": "Carlos",
+    "mname": "Y.",
+    "lname": "Roby",
+    "full": "Carlos Y. Roby, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012242313",
@@ -8117,7 +8533,11 @@
     "languages": [
       "English"
     ],
-    "name": "Ryan Balagna"
+    "fname": "Ryan",
+    "mname": "M.",
+    "lname": "Balagna",
+    "full": "Ryan M. Balagna, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012242313",
@@ -8282,7 +8702,11 @@
     "languages": [
       "English"
     ],
-    "name": "Nicole Medina-Salvatore"
+    "fname": "Nicole",
+    "mname": "Irene",
+    "lname": "Medina-Salvatore",
+    "full": "Nicole Irene Medina-Salvatore, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8012662485",
@@ -8416,7 +8840,11 @@
     "languages": [
       "English"
     ],
-    "name": "Justin Potts"
+    "fname": "Justin",
+    "mname": "R.",
+    "lname": "Potts",
+    "full": "Justin R. Potts, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8012242313",
@@ -8496,7 +8924,11 @@
       "Japanese",
       "English"
     ],
-    "name": "Risa Takara"
+    "fname": "Risa",
+    "mname": "",
+    "lname": "Takara",
+    "full": "Risa  Takara, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012242313",
@@ -8576,7 +9008,11 @@
       "Japanese",
       "English"
     ],
-    "name": "Risa Takara"
+    "fname": "Risa",
+    "mname": "",
+    "lname": "Takara",
+    "full": "Risa  Takara, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8018547942",
@@ -8669,7 +9105,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jon Skidmore"
+    "fname": "Jon",
+    "mname": "B.",
+    "lname": "Skidmore",
+    "full": "Jon B. Skidmore, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8018547942",
@@ -8762,7 +9202,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jon Skidmore"
+    "fname": "Jon",
+    "mname": "B.",
+    "lname": "Skidmore",
+    "full": "Jon B. Skidmore, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8012340613",
@@ -8817,7 +9261,11 @@
     "languages": [
       "English"
     ],
-    "name": "Peggy Muench"
+    "fname": "Peggy",
+    "mname": "Ann",
+    "lname": "Muench",
+    "full": "Peggy Ann Muench, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012662485",
@@ -8959,7 +9407,11 @@
     "languages": [
       "English"
     ],
-    "name": "Karen Malm"
+    "fname": "Karen",
+    "mname": "W.",
+    "lname": "Malm",
+    "full": "Karen W. Malm, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8012662485",
@@ -9093,7 +9545,11 @@
     "languages": [
       "English"
     ],
-    "name": "Justin Potts"
+    "fname": "Justin",
+    "mname": "R.",
+    "lname": "Potts",
+    "full": "Justin R. Potts, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013617104",
@@ -9150,7 +9606,11 @@
     "languages": [
       "English"
     ],
-    "name": "Heath Granley"
+    "fname": "Heath",
+    "mname": "Dean",
+    "lname": "Granley",
+    "full": "Heath Dean Granley, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013772014",
@@ -9197,7 +9657,11 @@
     "languages": [
       "English"
     ],
-    "name": "Richard Ellsworth"
+    "fname": "Richard",
+    "mname": "",
+    "lname": "Ellsworth",
+    "full": "Richard  Ellsworth, MA",
+    "designation": "MA"
   },
   {
     "primary_phone": "8013772014",
@@ -9288,7 +9752,11 @@
     "languages": [
       "English"
     ],
-    "name": "Casey Mangnall"
+    "fname": "Casey",
+    "mname": "",
+    "lname": "Mangnall",
+    "full": "Casey  Mangnall, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8013772014",
@@ -9341,7 +9809,11 @@
     "languages": [
       "English"
     ],
-    "name": "Jennifer Morrill"
+    "fname": "Jennifer",
+    "mname": "A.",
+    "lname": "Morrill",
+    "full": "Jennifer A. Morrill, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013560014",
@@ -9418,7 +9890,11 @@
     "languages": [
       "English"
     ],
-    "name": "Alan Hansen"
+    "fname": "Alan",
+    "mname": "B.",
+    "lname": "Hansen",
+    "full": "Alan B. Hansen, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013560014",
@@ -9495,7 +9971,11 @@
     "languages": [
       "English"
     ],
-    "name": "Alan Hansen"
+    "fname": "Alan",
+    "mname": "B.",
+    "lname": "Hansen",
+    "full": "Alan B. Hansen, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "8013560014",
@@ -9572,7 +10052,11 @@
     "languages": [
       "English"
     ],
-    "name": "Alan Hansen"
+    "fname": "Alan",
+    "mname": "B.",
+    "lname": "Hansen",
+    "full": "Alan B. Hansen, PHD",
+    "designation": "PHD"
   },
   {
     "primary_phone": "4353593677",
@@ -9631,7 +10115,11 @@
     "languages": [
       "English"
     ],
-    "name": "Grace MacDowell"
+    "fname": "Grace",
+    "mname": "A.",
+    "lname": "MacDowell",
+    "full": "Grace A. MacDowell, PSYD",
+    "designation": "PSYD"
   },
   {
     "primary_phone": "8019354171",
@@ -9753,6 +10241,10 @@
       "Spanish",
       "English"
     ],
-    "name": "Karen Cone-Uemura"
+    "fname": "Karen",
+    "mname": "",
+    "lname": "Cone-Uemura",
+    "full": "Karen  Cone-Uemura, PHD",
+    "designation": "PHD"
   }
 ]
