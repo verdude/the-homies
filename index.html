@@ -31,7 +31,6 @@
     </table>
   </div>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
   <script>
     function createCol(cls, text) {
@@ -53,7 +52,7 @@
           createCol("designation", homie.designation),
           createCol("specialties", homie.specialties?.join(", ")),
           createCol("flags", homie.provider_flags?.join(", ")),
-          createCol("address", homie.sites?.map(s => s.address)?.join(" - "),
+          createCol("address", homie.sites?.map(s => s.address)?.join(" - ")),
           createCol("out_of_network", homie.out_of_network),
           createCol("languages", homie.languages?.join(", ")),
           createCol("gender", homie.gender),
@@ -88,4 +87,5 @@
     });
   </script>
 </body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
 </html>
