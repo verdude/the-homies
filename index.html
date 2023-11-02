@@ -12,9 +12,6 @@
       <thead>
         <tr>
           <th class="sort" data-sort="full">Full Name</th>
-          <th class="sort" data-sort="first">First Name</th>
-          <th class="sort" data-sort="last">Last Name</th>
-          <th class="sort" data-sort="middle">Middle Name</th>
           <th class="sort" data-sort="designation">Designation</th>
           <th class="sort" data-sort="specialties">Specialties</th>
           <th class="sort" data-sort="flags">Provider Flags</th>
@@ -54,9 +51,6 @@
         const row = document.createElement("tr");
         const cells = [
           createCol("full", homie.full),
-          createCol("first", homie.fname),
-          createCol("middle", homie.mname),
-          createCol("last", homie.lname),
           createCol("designation", homie.designation),
           createCol("specialties", homie.specialties?.join(", ")),
           createCol("flags", homie.provider_flags?.join(", ")),
@@ -76,9 +70,6 @@
       const options = {
         valueNames: [
           "full",
-          "fname",
-          "mname",
-          "lname",
           "designation",
           "specialties",
           "flags",
