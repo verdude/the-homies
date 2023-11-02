@@ -1,72 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filterable Table</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable Table</title>
 </head>
 <body>
-    <input class="search" placeholder="Search">
+  <input class="search" placeholder="Search">
 
-    <div id="users">
-        <input class="search" placeholder="Search" />
-        <table>
-            <thead>
-                <tr>
-                    <th class="sort" data-sort="name">Name</th>
-                    <th class="sort" data-sort="specialties">Specialties</th>
-                    <th class="sort" data-sort="flags">Flags</th>
-                    <th class="sort" data-sort="address">Address</th>
-                    <!-- Add other headers as needed -->
-                </tr>
-            </thead>
-            <tbody class="list"></tbody>
-        </table>
-    </div>
+  <div id="users">
+    <input class="search" placeholder="Search" />
+    <table>
+      <thead>
+        <tr>
+          <th class="sort" data-sort="name">Name</th>
+          <th class="sort" data-sort="specialties">Specialties</th>
+          <th class="sort" data-sort="flags">Provider Flags</th>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
-    <script>
-        fetch('simplified-data.json')
-        .then(response => response.json())
-        .then(data => {
-            const tbody = document.querySelector(".list");
+          <th class="sort" data-sort="address">Address</th>
+          <th class="sort" data-sort="email">Email</th>
+          <th class="sort" data-sort="out_of_network">Out Of Network</th>
 
-            data.forEach(homie => {
-                const row = document.createElement("tr");
+          <th class="sort" data-sort="languages">Languages</th>
+          <th class="sort" data-sort="gender">Gender</th>
+          <th class="sort" data-sort="education">Education</th>
 
-                const nameCell = document.createElement("td");
-                nameCell.className = "name";
-                nameCell.textContent = data.name;
+          <th class="sort" data-sort="primaryphone">Primary Phone</th>
+          <th class="sort" data-sort="type">Type</th>
+        </tr>
+      </thead>
+      <tbody class="list"></tbody>
+    </table>
+  </div>
 
-                const specialtiesCell = document.createElement("td");
-                specialtiesCell.className = "specialties";
-                specialtiesCell.textContent = homie.specialties.join(", ");
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+  <script>
+    function createCol(cls, text) {
+      const col = document.createElement("td");
+      col.className = cls;
+      col.textContent = text;
+      return col;
+    }
 
-                const flagsCell = document.createElement("td");
-                flagsCell.className = "flags";
-                flagsCell.textContent = homie.flags.join(", ");
+    fetch('simplified-data.json')
+    .then(response => response.json())
+    .then(data => {
+      const tbody = document.querySelector(".list");
 
-                const addressCell = document.createElement("td");
-                addressCell.className = "address";
-                addressCell.textContent = homie.address;
+      data.forEach(homie => {
+        const row = document.createElement("tr");
+        const cells = [
+          createCol("name", homie.name),
+          createCol("specialties", homie.specialties.join(", ")),
+          createCol("flags", homie.provider_flags.join(", ")),
+          createCol("address", homie.address),
+          createCol("email", homie.email),
+          createCol("out_of_network", homie.out_of_network),
+          createCol("languages", homie.languages.join(", ")),
+          createCol("gender", homie.gender),
+          createCol("education", homie.education),
+          createCol("primaryphone", homie.primaryphone),
+          createCol("type", homie.type),
+        ];
+        cells.forEach(cell => row.appendChild(cell));
+        tbody.appendChild(row);
+      });
 
-                row.appendChild(nameCell);
-                row.appendChild(specialtiesCell);
-                row.appendChild(flagsCell);
-                row.appendChild(addressCell);
+      const options = {
+        valueNames: [
+          "name",
+          "specialties",
+          "flags",
+          "address",
+          "email",
+          "out_of_network",
+          "languages",
+          "gender",
+          "education",
+          "primaryphone",
+          "type",
+        ]
+      };
 
-                tbody.appendChild(row);
-            });
-
-            const options = {
-                valueNames: ['name', 'specialties', 'flags', 'address']
-            };
-
-            const userList = new List('users', options);
-        })
-        .catch(error => {
-            console.error("There was an error loading the JSON data:", error);
-        });
-    </script>
+      const userList = new List('users', options);
+    })
+    .catch(error => {
+      console.error("There was an error loading the JSON data:", error);
+    });
+  </script>
 </body>
 </html>
