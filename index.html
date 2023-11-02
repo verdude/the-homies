@@ -13,15 +13,14 @@
         <tr>
           <th class="sort" data-sort="full">Full Name</th>
           <th class="sort" data-sort="designation">Designation</th>
+          <th class="sort" data-sort="gender">Gender</th>
+
+          <th class="sort" data-sort="education">Education</th>
+          <th class="sort" data-sort="address">Address</th>
           <th class="sort" data-sort="specialties">Specialties</th>
 
           <th class="sort" data-sort="flags">Provider Flags</th>
-          <th class="sort" data-sort="address">Address</th>
-
           <th class="sort" data-sort="languages">Languages</th>
-          <th class="sort" data-sort="gender">Gender</th>
-          <th class="sort" data-sort="education">Education</th>
-
           <th class="sort" data-sort="primaryphone">Primary Phone</th>
         </tr>
       </thead>
@@ -48,12 +47,12 @@
         const cells = [
           createCol("full", homie.full),
           createCol("designation", homie.designation),
-          createCol("specialties", homie.specialties?.join(", ")),
-          createCol("flags", homie.provider_flags?.join(", ")),
-          createCol("address", homie.sites?.map(s => s.address)?.join(" - ")),
-          createCol("languages", homie.languages?.join(", ")),
           createCol("gender", homie.gender),
           createCol("education", homie.education),
+          createCol("address", homie.sites?.map(s => s.address)?.join(" - ")),
+          createCol("specialties", homie.specialties?.join(", ")),
+          createCol("flags", homie.provider_flags?.join(", ")),
+          createCol("languages", homie.languages?.join(", ")),
           createCol("primaryphone", homie.primary_phone),
         ];
         cells.forEach(cell => row.appendChild(cell));
@@ -64,12 +63,12 @@
         valueNames: [
           "full",
           "designation",
-          "specialties",
-          "flags",
-          "address",
-          "languages",
           "gender",
           "education",
+          "address",
+          "specialties",
+          "flags",
+          "languages",
           "primaryphone",
         ]
       };
