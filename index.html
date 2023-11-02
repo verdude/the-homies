@@ -17,14 +17,12 @@
 
           <th class="sort" data-sort="flags">Provider Flags</th>
           <th class="sort" data-sort="address">Address</th>
-          <th class="sort" data-sort="out_of_network">Out Of Network</th>
 
           <th class="sort" data-sort="languages">Languages</th>
           <th class="sort" data-sort="gender">Gender</th>
           <th class="sort" data-sort="education">Education</th>
 
           <th class="sort" data-sort="primaryphone">Primary Phone</th>
-          <th class="sort" data-sort="type">Type</th>
         </tr>
       </thead>
       <tbody class="list"></tbody>
@@ -53,12 +51,10 @@
           createCol("specialties", homie.specialties?.join(", ")),
           createCol("flags", homie.provider_flags?.join(", ")),
           createCol("address", homie.sites?.map(s => s.address)?.join(" - ")),
-          createCol("out_of_network", homie.out_of_network),
           createCol("languages", homie.languages?.join(", ")),
           createCol("gender", homie.gender),
           createCol("education", homie.education),
           createCol("primaryphone", homie.primary_phone),
-          createCol("type", homie.type),
         ];
         cells.forEach(cell => row.appendChild(cell));
         tbody.appendChild(row);
@@ -71,12 +67,10 @@
           "specialties",
           "flags",
           "address",
-          "out_of_network",
           "languages",
           "gender",
           "education",
           "primaryphone",
-          "type",
         ]
       };
 
