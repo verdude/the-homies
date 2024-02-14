@@ -6,14 +6,17 @@
   <title>The Homies</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
   <style>
-    .done {
-      background-color: #D3D3D3; /* Single Click */
+    .notgood {
+      background-color: #FD8A8A;
     }
-    .saved {
-      background-color: #A8D5BA; /* Double Click */
+    .notenoughinfo {
+      background-color: #aaaaaa;
     }
-    .highlighted { /* Triple Click */
-      background-color: #FFFACD; /* Pastel Yellow */
+    .recommend {
+      background-color: #A8D1D1;
+    }
+    .highlyrecommend {
+      background-color: #F1F7B5;
     }
   </style>
 </head>
@@ -48,23 +51,24 @@
     }
 
     function updateRowStatus(row, status) {
-      row.className = ''; // Reset classes
-      if (status === 'done') {
-        row.classList.add('done');
-      } else if (status === 'saved') {
-        row.classList.add('saved');
-      } else if (status === 'highlighted') {
-        row.classList.add('highlighted');
+      row.className = "";
+      if (status === "notgood") {
+        row.classList.add("notgood");
+      } else if (status === "notenoughinfo") {
+        row.classList.add("notenoughinfo");
+      } else if (status === "recommend") {
+        row.classList.add("recommend");
+      } else if (status === "highlyrecommend") {
+        row.classlist.add("highlyrecommend");
       }
-      // Save the status to localStorage
-      const id = row.getAttribute('data-id');
+      const id = row.getAttribute("data-id");
       localStorage.setItem(id, status);
     }
 
     function loadRowStatus() {
-      const rows = document.querySelectorAll('.list tr');
+      const rows = document.querySelectorAll(".list tr");
       rows.forEach(row => {
-        const id = row.getAttribute('data-id');
+        const id = row.getAttribute("data-id");
         const status = localStorage.getItem(id);
         if (status) {
           updateRowStatus(row, status);
@@ -72,7 +76,7 @@
       });
     }
 
-    fetch('simplified-data.json')
+    fetch("simplified-data.json")
     .then(response => response.json())
     .then(data => {
       const tbody = document.querySelector(".list");
@@ -80,7 +84,7 @@
       data.forEach((homie, index) => {
         const row = document.createElement("tr");
         // Assign a unique data-id attribute to each row. Use homie.id if available, or fallback to index.
-        row.setAttribute('data-id', homie.id || `homie-${index}`);
+        row.setAttribute("data-id", homie.id || `homie-${index}`);
         const cells = [
           createCol("full", homie.full),
           createCol("designation", homie.designation),
@@ -112,42 +116,66 @@
         ]
       };
 
-      new List('homies', options);
+      new List("homies", options);
     })
     .catch(error => {
       console.error("There was an error loading the JSON data:", error);
     });
 
     document.addEventListener('DOMContentLoaded', function() {
-      let clickCount = 0;
-      let lastClickTime = 0;
-      const tripleClickThreshold = 400; // milliseconds
+  let clickCount = 0;
+  let clickTimer = null;
+  const clickThreshold = 400; // milliseconds
 
-      document.querySelector('.list').addEventListener('click', function(e) {
-        if (e.target.tagName === 'TD') {
-          const now = Date.now();
-          const row = e.target.parentNode;
-          if (now - lastClickTime <= tripleClickThreshold) {
-            clickCount++;
-          } else {
-            clickCount = 1; // reset count if time between clicks is too long
-          }
+  function getStatusByClickCount(count) {
+    switch (count) {
+      case 1: return 'notgood';
+      case 2: return 'notenoughinfo';
+      case 3: return 'recommend';
+      case 4: return 'highlyrecommend';
+      default: return '';
+    }
+  }
 
-          lastClickTime = now;
+  document.querySelector('.list').addEventListener('click', function(e) {
+    if (e.target.tagName === 'TD') {
+      const row = e.target.parentNode;
+      clickCount++;
 
-          setTimeout(() => {
-            if (clickCount === 1) {
-              updateRowStatus(row, 'done');
-            } else if (clickCount === 2) {
-              updateRowStatus(row, 'saved');
-            } else if (clickCount === 3) {
-              updateRowStatus(row, 'highlighted');
-              clickCount = 0; // reset count after triple click action
-            }
-          }, tripleClickThreshold);
-        }
-      });
-    });
+      if (clickTimer) clearTimeout(clickTimer);
+
+      clickTimer = setTimeout(() => {
+        const status = getStatusByClickCount(clickCount);
+        updateRowStatus(row, status);
+        clickCount = 0; // Reset count after action
+      }, clickThreshold);
+    }
+  });
+});
+
+function updateRowStatus(row, status) {
+  // Clear previous statuses
+  row.classList.remove('notgood', 'notenoughinfo', 'recommend', 'highlyrecommend');
+  // Apply new status
+  row.classList.add(status);
+  // Save the status to localStorage
+  const id = row.getAttribute('data-id');
+  localStorage.setItem(id, status);
+}
+
+function loadRowStatus() {
+  const rows = document.querySelectorAll('.list tr');
+  rows.forEach(row => {
+    const id = row.getAttribute('data-id');
+    const status = localStorage.getItem(id);
+    if (status) {
+      updateRowStatus(row, status);
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', loadRowStatus);
+
   </script>
 </body>
 </html>
