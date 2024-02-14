@@ -122,23 +122,23 @@
       console.error("There was an error loading the JSON data:", error);
     });
 
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener("DOMContentLoaded", function() {
   let clickCount = 0;
   let clickTimer = null;
   const clickThreshold = 400; // milliseconds
 
   function getStatusByClickCount(count) {
     switch (count) {
-      case 1: return 'notgood';
-      case 2: return 'notenoughinfo';
-      case 3: return 'recommend';
-      case 4: return 'highlyrecommend';
-      default: return '';
+      case 1: return "notgood";
+      case 2: return "notenoughinfo";
+      case 3: return "recommend";
+      case 4: return "highlyrecommend";
+      default: return "none";
     }
   }
 
-  document.querySelector('.list').addEventListener('click', function(e) {
-    if (e.target.tagName === 'TD') {
+  document.querySelector(".list").addEventListener("click", function(e) {
+    if (e.target.tagName === "TD") {
       const row = e.target.parentNode;
       clickCount++;
 
@@ -154,19 +154,16 @@
 });
 
 function updateRowStatus(row, status) {
-  // Clear previous statuses
-  row.classList.remove('notgood', 'notenoughinfo', 'recommend', 'highlyrecommend');
-  // Apply new status
+  row.classList.remove("none", "notgood", "notenoughinfo", "recommend", "highlyrecommend");
   row.classList.add(status);
-  // Save the status to localStorage
-  const id = row.getAttribute('data-id');
+  const id = row.getAttribute("data-id");
   localStorage.setItem(id, status);
 }
 
 function loadRowStatus() {
-  const rows = document.querySelectorAll('.list tr');
+  const rows = document.querySelectorAll(".list tr");
   rows.forEach(row => {
-    const id = row.getAttribute('data-id');
+    const id = row.getAttribute("data-id");
     const status = localStorage.getItem(id);
     if (status) {
       updateRowStatus(row, status);
@@ -174,7 +171,7 @@ function loadRowStatus() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', loadRowStatus);
+document.addEventListener("DOMContentLoaded", loadRowStatus);
 
   </script>
 </body>
